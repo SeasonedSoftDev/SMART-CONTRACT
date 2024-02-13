@@ -1,5 +1,5 @@
 # SMART-CONTRACT
-Sample sources for several SMART CONTRACT services
+COMING FOR YOU HACKER
 
 <ul>
   <li>
