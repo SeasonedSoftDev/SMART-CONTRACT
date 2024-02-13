@@ -3,7 +3,11 @@ Sample sources for several SMART CONTRACT services
 
 <ul>
   <li>
-    <h3>bmxarto-NFT-makertplace</h3>
-    <div>Some of source for NFT marke-place service using React as front-end and Solidity as its contract</div>
+    <h4>bmxarto-NFT-makertplace</h4>
+    <div>NFT marketplace contracts</div>
+  </li>
+  <li>
+    <h4>Wagmimark</h4>
+    <div>NFT mint sample</div>
   </li>
 </ul>

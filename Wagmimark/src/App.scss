@@ -1,0 +1,117 @@
+$font-mont: "Montserrat";
+.mintingSection {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .mintingDiv {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 40px 50px;
+    background: #201C21;
+    box-shadow: 0px 4px 114px rgba(196, 57, 221, 0.5);
+    border-radius: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: $font-mont;
+    font-style: normal;
+
+
+    .title {
+      color: white;
+      text-align: center;
+      font-size: 40px;
+      font-family: $font-mont;
+    }
+    .ether-count {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-around;
+      .div-manage {
+        .manage-ether {
+          width: 20px;
+          height: 20px;
+          cursor: pointer;
+          transition: all 0.5s ease;
+          &:hover {
+            opacity: 0.8;
+          }
+        }
+      }
+      .count-ether {
+        font-weight: 600;
+        font-size: 30px;
+        width: 40px;
+        color: white;
+      }
+      .split {
+        width: 2px;
+        height: 48px;
+        background: white;
+      }
+      .ether-icon {
+        width: 17px;
+        height: 28px;
+      }
+      .value-ether {
+        font-weight: 600;
+        font-size: 30px;
+        color: white;
+      }
+    }
+    .minting-info {
+      display: flex;
+      margin-bottom: 13px;
+      font-family: $font-mont;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 16px;
+      color: #FFFFFF;
+      .value-info {
+        opacity: 0.4;
+      }
+      align-items: center;
+      justify-content: space-between;
+    }
+    .processButton {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .btn-process {
+        margin-top: 8px;
+        background: linear-gradient(90deg, #7BF1F5 0%, #C439DD 50.52%, #4925E9 101.04%);
+        border-radius: 90px;
+        width: 310px;
+        height: 50px;
+        border: none;
+        cursor: pointer;
+        font-family: $font-mont;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        color: #FFFFFF;
+        transition: all 0.5s ease;
+        opacity: 0.8;
+        &:hover {
+          opacity: 1;
+        }
+        &:disabled {
+          opacity: 0.1;
+          &:hover {
+            opacity: 0.1;
+          }
+        }
+      }
+    }
+  }
+}
